@@ -30,7 +30,8 @@
   background-color:#9c27b0;
  }
  .site-branding{
-  padding-bottom:1cm;
+  padding-top: 2cm;
+  padding-bottom:2cm;
   text-align: center;
  }
  body{
@@ -144,6 +145,9 @@ color: #131313;
 .h2, h2{
   font-family:arimo;
   color:#727272;
+}
+.navbar-default{
+  border-color:#7b1fa2;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
  background-color:#7b1fa2;
