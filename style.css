@@ -11,22 +11,44 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
  */
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+ @import url('https://fonts.googleapis.com/css?family=Arimo');
+ header{
+  background-color:#9c27b0;
+ }
+ .site-title{
+  color:white;
+ }
+
+ a{
+  color:white;
+ }
+ .lead{
+  color:white;
+ }
+ .site-navigation{
+  background-color:#9c27b0;
+ }
+ .site-branding{
+  padding-bottom:1cm;
+  text-align: center;
+ }
  body{
- background-image:url("http://www.mrwallpaper.com/wallpapers/galaxy-cosmic-space-1920x1200.jpg");
+ background-color:white;
+ text-align: center;
+
 }
-a {
-  color:white;
-  font-family: cursive;
-}
+
 p {
-  font:italic bold 12px/30px Georgia, serif;
-  color:white;
+  font-family:arimo;
+  color:#727272;
 }
 h3 {
+  font-family:arimo;
   color:#8B0000;
 }
 button, html input[type=button], input[type=reset], input[type=submit]{
-   background-color: #b65dd8; 
+   background-color: #009688; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -39,7 +61,7 @@ button, input, select, textarea{
   background-color: #D3D3D3;
 }
 h1.page-title{
-	font-family:cursive;
+	font-family:pacifico;
   font-size: 92px;
   padding: 60px 30px;
   text-align: center;
@@ -111,17 +133,20 @@ color: #131313;
     text-shadow: 
       4px 4px 0px #d5d5d5, 
       7px 7px 0px rgba(0, 0, 0, 0.2);
-      background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHkuXoQyGphsjqAfdm6tCd3Ij-HnR6PG8bAvQwsFwRcXhglHKOYQ");
+     /* background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHkuXoQyGphsjqAfdm6tCd3Ij-HnR6PG8bAvQwsFwRcXhglHKOYQ");*/
+
 }
 .h1, h1{
-  color:white;
-  font-family:'Sloop-ScriptThree'; 
+  font-family: pacifico;
+  color:black;
 }
+
 .h2, h2{
-  color:white;
+  font-family:arimo;
+  color:#727272;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
- background-color:#bb67e8;
+ background-color:#7b1fa2;
   color:white;
  }
 
@@ -145,7 +170,7 @@ color: #131313;
   color:white;
 }
 .site-branding{
-	color:black;
+	color:white;
 	height: 100%;
   overflow: hidden;
   transform: rotate(-4deg);
@@ -168,6 +193,7 @@ color: #131313;
       absolute: top 50% left 0 right 5px bottom 0;
     &:before {
       absolute: top -50px left 0 right 0;
+
 
 }
 
