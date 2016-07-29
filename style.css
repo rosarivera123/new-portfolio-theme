@@ -13,15 +13,27 @@
  */
  @import url('https://fonts.googleapis.com/css?family=Pacifico');
  @import url('https://fonts.googleapis.com/css?family=Arimo');
+ /* fixes stuff inside the header*/
  header{
   background-color:#9c27b0;
  }
  .site-title{
   color:white;
  }
+ .site-branding{
+  padding-top: 2cm;
+  padding-bottom:2cm;
+  text-align: center;
+ }
+ 
+
 
  a{
   color:white;
+ }
+ a:focus, a:hover{
+  color:white;
+  
  }
  .lead{
   color:white;
@@ -29,11 +41,8 @@
  .site-navigation{
   background-color:#9c27b0;
  }
- .site-branding{
-  padding-top: 2cm;
-  padding-bottom:2cm;
-  text-align: center;
- }
+
+ 
  body{
  background-color:white;
  text-align: center;
@@ -41,13 +50,14 @@
 }
 
 p {
-  font-family:arimo;
+  font-family:'arimo';
   color:#727272;
 }
 h3 {
-  font-family:arimo;
+  font-family:'arimo';
   color:#8B0000;
 }
+
 button, html input[type=button], input[type=reset], input[type=submit]{
    background-color: #009688; 
     border: none;
@@ -62,7 +72,7 @@ button, input, select, textarea{
   background-color: #D3D3D3;
 }
 h1.page-title{
-	font-family:pacifico;
+	font-family:'pacifico';
   font-size: 92px;
   padding: 60px 30px;
   text-align: center;
@@ -138,13 +148,13 @@ color: #131313;
 
 }
 .h1, h1{
-  font-family: pacifico;
+  font-family: 'pacifico';
   color:black;
 }
 
 .h2, h2{
-  font-family:arimo;
-  color:#727272;
+  font-family:'Pacifico';
+  color:black;
 }
 .navbar-default{
   border-color:#7b1fa2;
@@ -174,8 +184,8 @@ color: #131313;
   color:white;
 }
 .site-branding{
-	color:white;
-	height: 100%;
+  color:white;
+  height: 100%;
   overflow: hidden;
   transform: rotate(-4deg);
   background: radial-gradient(center, crimson, darken(crimson, 60%));
@@ -200,7 +210,6 @@ color: #131313;
 
 
 }
-
 
 .navbar-default .navbar-nav>li>a{
 	color:white;
