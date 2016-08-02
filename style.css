@@ -25,7 +25,9 @@
   padding-bottom:2cm;
   text-align: center;
  }
- 
+ ol, ul{
+  list-style-type: none;
+ }
 
 
  a{
@@ -158,6 +160,7 @@ color: #131313;
 }
 .navbar-default{
   border-color:#7b1fa2;
+
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
  background-color:#7b1fa2;
@@ -216,5 +219,9 @@ color: #131313;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
   color:white;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+   padding-right: 0;
+   float: right;
 }
 
